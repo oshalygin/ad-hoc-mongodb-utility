@@ -1,2627 +1,326 @@
 {
-    "name" : "BCET Systems",
-    "title" : "Building Cybersecurity Evaluation Tool",
-    "description" : "Control System Performance Score",
-    "helpText" : "",
-    "levelTypes" : [ 
+    "name": "Ethan - Full Feature Demo (Don't Delete)",
+    "title": "",
+    "description": "",
+    "helpText": "",
+    "levelTypes": [
         {
-            "type" : 1,
-            "typeName" : "One",
-            "displayName" : "BCS Categories",
-            "defaultScoreBy" : "questions"
-        }, 
+            "type": 1,
+            "typeName": "One",
+            "displayName": "NIST",
+            "defaultScoreBy": "questions"
+        },
         {
-            "type" : 2,
-            "typeName" : "Two",
-            "displayName" : "NIST Functions",
-            "defaultScoreBy" : "sublevels"
-        }, 
+            "type": 2,
+            "typeName": "Two",
+            "displayName": "Collection Method",
+            "defaultScoreBy": "sublevels"
+        },
         {
-            "type" : 3,
-            "typeName" : "Three",
-            "displayName" : "",
-            "defaultScoreBy" : "sublevels"
+            "type": 3,
+            "typeName": "Three",
+            "displayName": "Level Three",
+            "defaultScoreBy": "sublevels"
         }
     ],
-    "levels" : [ 
+    "levels": [
         {
-            "id" : "897b6d22-2dd2-4be5-9f58-f6409d53af42",
-            "name" : "Monitoring",
-            "type" : 1,
-            "typeName" : "One",
-            "scoreBy" : "questions",
-            "sublevels" : []
-        }, 
+            "id": "0bb5b28d-878e-49c4-8970-c6d5f0836550",
+            "name": "Detect",
+            "type": 1,
+            "typeName": "One",
+            "scoreBy": "questions",
+            "sublevels": []
+        },
         {
-            "id" : "8631bc9f-d93d-4602-b7f3-53e28be18602",
-            "name" : "3. Detect",
-            "type" : 2,
-            "typeName" : "Two",
-            "scoreBy" : "questions",
-            "sublevels" : []
-        }, 
+            "id": "b4102451-f9fe-46a3-920a-375299d07f9c",
+            "name": "Identify",
+            "type": 1,
+            "typeName": "One",
+            "scoreBy": "questions",
+            "sublevels": []
+        },
         {
-            "id" : "4eb7129b-4ab7-4c08-8c91-80a418b6acdc",
-            "name" : "1. Identify",
-            "type" : 2,
-            "typeName" : "Two",
-            "scoreBy" : "questions",
-            "sublevels" : []
-        }, 
+            "id": "190fb63c-4cad-4d98-9b68-9215b59a4d88",
+            "name": "Protect",
+            "type": 1,
+            "typeName": "One",
+            "scoreBy": "questions",
+            "sublevels": []
+        },
         {
-            "id" : "023ab54d-4342-47d6-ad5c-de5ed24a9f0c",
-            "name" : "2. Protect",
-            "type" : 2,
-            "typeName" : "Two",
-            "scoreBy" : "questions",
-            "sublevels" : []
-        }, 
+            "id": "841f69d7-8b49-412f-9370-d875bf8d73f3",
+            "name": "Customer Statement",
+            "type": 2,
+            "typeName": "Two",
+            "scoreBy": "questions",
+            "sublevels": []
+        },
         {
-            "id" : "ec0ecee1-2915-45da-b7ab-a9dd49dd2d9d",
-            "name" : "Assets",
-            "type" : 1,
-            "typeName" : "One",
-            "scoreBy" : "questions",
-            "sublevels" : []
-        }, 
+            "id": "e4aa5d9c-6c73-4a28-9667-88435f77446e",
+            "name": "Audit Observation",
+            "type": 2,
+            "typeName": "Two",
+            "scoreBy": "questions",
+            "sublevels": []
+        },
         {
-            "id" : "4651c611-3936-48a7-8d27-fe4406cc481e",
-            "name" : "Risk",
-            "type" : 1,
-            "typeName" : "One",
-            "scoreBy" : "questions",
-            "sublevels" : []
-        }, 
-        {
-            "id" : "c1872bfe-50c0-40c8-ad38-afdd7960c9cd",
-            "name" : "Management",
-            "type" : 1,
-            "typeName" : "One",
-            "scoreBy" : "questions",
-            "sublevels" : []
-        }, 
-        {
-            "id" : "7919d706-cfe1-4163-a8c8-0a118a8cb365",
-            "name" : "Systems",
-            "type" : 1,
-            "typeName" : "One",
-            "scoreBy" : "questions",
-            "sublevels" : []
-        }, 
-        {
-            "id" : "785fbd30-3c92-4600-8dcb-2f4bcf2925c8",
-            "name" : "Access",
-            "type" : 1,
-            "typeName" : "One",
-            "scoreBy" : "questions",
-            "sublevels" : []
-        }, 
-        {
-            "id" : "6c521f7b-ffc0-4af6-9a94-59cc2a360eca",
-            "name" : "Continuity",
-            "type" : 1,
-            "typeName" : "One",
-            "scoreBy" : "questions",
-            "sublevels" : []
-        }, 
-        {
-            "id" : "3c7462f2-bfcc-4234-b251-087647b37e7b",
-            "name" : "5. Recover",
-            "type" : 2,
-            "typeName" : "Two",
-            "scoreBy" : "questions",
-            "sublevels" : []
-        }, 
-        {
-            "id" : "440804b6-822d-48ad-b12d-54461f1e82ec",
-            "name" : "Contingency",
-            "type" : 1,
-            "typeName" : "One",
-            "scoreBy" : "questions",
-            "sublevels" : []
-        }, 
-        {
-            "id" : "f64f9565-8db4-4264-b4af-4de098de7b18",
-            "name" : "4. Respond",
-            "type" : 2,
-            "typeName" : "Two",
-            "scoreBy" : "questions",
-            "sublevels" : []
-        }, 
-        {
-            "id" : "893e4a62-5aed-4a2d-80b6-a9c55030c06f",
-            "name" : "Incident Response",
-            "type" : 1,
-            "typeName" : "One",
-            "scoreBy" : "questions",
-            "sublevels" : []
+            "id": "7fcb18f7-57d7-4506-8be2-d19340e3ea7d",
+            "name": "Fact Verified",
+            "type": 2,
+            "typeName": "Two",
+            "scoreBy": "questions",
+            "sublevels": []
         }
     ],
-    "categories" : [ 
+    "categories": [
         {
-            "id" : "faed8842-34da-4fdf-862c-bc1349533c3c",
-            "name" : "Systems",
-            "title" : "Control Systems",
-            "description" : "",
-            "questions" : [ 
+            "id": "9561d3b6-9d00-4361-8ff3-486b8d8c90ce",
+            "name": "Stakeholder Questions",
+            "title": "Stakeholder Questions",
+            "description": "",
+            "questions": [
                 {
-                    "id" : "2165fbd3-9735-43c7-b887-ce398d65968a",
-                    "name" : "Radio",
-                    "type" : "enumsingle",
-                    "label" : "Control System Type",
-                    "hint" : "",
-                    "options" : [ 
+                    "id": "3732b8e2-df6d-4d2e-aac6-06576c7692aa",
+                    "name": "Scoring",
+                    "type": "scoring",
+                    "label": "Do you have a governance framework in place for vendor security?",
+                    "hint": "",
+                    "options": [
                         {
-                            "label" : "Building Automation",
-                            "score" : "",
-                            "recommendation" : "",
-                            "isKeyRecommendation" : false
-                        }, 
+                            "label": "Yes",
+                            "score": 8.0,
+                            "recommendation": "",
+                            "isKeyRecommendation": false
+                        },
                         {
-                            "label" : "Lighting Control",
-                            "score" : "",
-                            "recommendation" : "",
-                            "isKeyRecommendation" : false
-                        }, 
+                            "label": "No",
+                            "score": 1.0,
+                            "recommendation": "This is critical to have in place. We can provide a template.",
+                            "isKeyRecommendation": true
+                        },
                         {
-                            "label" : "Elevator",
-                            "score" : "",
-                            "recommendation" : "",
-                            "isKeyRecommendation" : false
-                        }, 
-                        {
-                            "label" : "Power Management",
-                            "score" : "",
-                            "recommendation" : "",
-                            "isKeyRecommendation" : false
-                        }, 
-                        {
-                            "label" : "Access Control",
-                            "score" : "",
-                            "recommendation" : "",
-                            "isKeyRecommendation" : false
-                        }, 
-                        {
-                            "label" : "Video Surveillance",
-                            "score" : "",
-                            "recommendation" : "",
-                            "isKeyRecommendation" : false
-                        }, 
-                        {
-                            "label" : "Intrusion Detection",
-                            "score" : "",
-                            "recommendation" : "",
-                            "isKeyRecommendation" : false
-                        }, 
-                        {
-                            "label" : "Metering",
-                            "score" : "",
-                            "recommendation" : "",
-                            "isKeyRecommendation" : false
-                        }, 
-                        {
-                            "label" : "Irrigation",
-                            "score" : "",
-                            "recommendation" : "",
-                            "isKeyRecommendation" : false
-                        }, 
-                        {
-                            "label" : "Fuel Management",
-                            "score" : "",
-                            "recommendation" : "",
-                            "isKeyRecommendation" : false
-                        }, 
-                        {
-                            "label" : "Leak Detection",
-                            "score" : "",
-                            "recommendation" : "",
-                            "isKeyRecommendation" : false
-                        }, 
-                        {
-                            "label" : "Parking",
-                            "score" : "",
-                            "recommendation" : "",
-                            "isKeyRecommendation" : false
-                        }, 
-                        {
-                            "label" : "Other",
-                            "score" : "",
-                            "recommendation" : "",
-                            "isKeyRecommendation" : false
+                            "label": "Not sure",
+                            "score": 5.0,
+                            "recommendation": "This answer should be tracked down.",
+                            "isKeyRecommendation": true
                         }
                     ],
-                    "instance" : 1,
-                    "levels" : [],
-                    "value" : "Building Automation",
-                    "requiresAdditionalContext" : false,
-                    "additionalContext" : "",
-                    "instanceIdentifier" : true
-                }, 
+                    "instance": 1,
+                    "levels": [
+                        "841f69d7-8b49-412f-9370-d875bf8d73f3",
+                        "b4102451-f9fe-46a3-920a-375299d07f9c"
+                    ],
+                    "value": "Yes",
+                    "requiresAdditionalContext": false,
+                    "additionalContext": "",
+                    "instanceIdentifier": false
+                },
                 {
-                    "id" : "7384177e-d053-4ca2-9a8b-32a719e56038",
-                    "name" : "Short Text",
-                    "type" : "shorttext",
-                    "label" : "Other Description",
-                    "hint" : "If other selected above give short details",
-                    "options" : [],
-                    "instance" : 1,
-                    "levels" : [],
-                    "value" : "",
-                    "requiresAdditionalContext" : false,
-                    "additionalContext" : "",
-                    "instanceIdentifier" : true
-                }, 
+                    "id": "57c1305b-a68e-4db4-aa39-a315fa4dcc19",
+                    "name": "Long Text",
+                    "type": "longtext",
+                    "label": "Describe your vendor access review procedure",
+                    "hint": "This may be an existing document which can be uploaded in next question.",
+                    "options": [],
+                    "instance": 1,
+                    "levels": [],
+                    "value": "",
+                    "requiresAdditionalContext": false,
+                    "additionalContext": "",
+                    "instanceIdentifier": false
+                },
                 {
-                    "id" : "86e426f5-78a0-4661-bcfa-56e0034149de",
-                    "name" : "Short Text",
-                    "type" : "shorttext",
-                    "label" : "Manufacturer and Model",
-                    "hint" : "",
-                    "options" : [],
-                    "instance" : 1,
-                    "levels" : [],
-                    "value" : "",
-                    "requiresAdditionalContext" : false,
-                    "additionalContext" : "",
-                    "instanceIdentifier" : true
-                }, 
+                    "id": "e63b13c4-727f-4d72-99f9-b8e39db1ecda",
+                    "name": "Upload",
+                    "type": "upload",
+                    "label": "Vendor access review document",
+                    "hint": "",
+                    "options": [],
+                    "instance": 1,
+                    "levels": [],
+                    "value": [],
+                    "requiresAdditionalContext": true,
+                    "additionalContext": "",
+                    "instanceIdentifier": false
+                },
                 {
-                    "id" : "7bb796bb-78b4-4088-9da7-4b0dc88403d3",
-                    "name" : "Scoring",
-                    "type" : "scoring",
-                    "label" : "Are scans performed to discover devices connected to the control network?",
-                    "hint" : "",
-                    "options" : [ 
-                        {
-                            "label" : "Yes",
-                            "score" : 8,
-                            "recommendation" : "Procedures reported appear to comply with current best practices.",
-                            "isKeyRecommendation" : false
-                        }, 
-                        {
-                            "label" : "No",
-                            "score" : 1,
-                            "recommendation" : "Perform scans using scanning tools that are designed and configured to be used on control networks.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "Unknown",
-                            "score" : 0,
-                            "recommendation" : "Develop policy outlining procedures for scanning OT networks.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "NA",
-                            "score" : "",
-                            "recommendation" : "Item not applicable at this time.",
-                            "isKeyRecommendation" : false
-                        }
-                    ],
-                    "instance" : 1,
-                    "levels" : [ 
-                        "897b6d22-2dd2-4be5-9f58-f6409d53af42", 
-                        "8631bc9f-d93d-4602-b7f3-53e28be18602"
-                    ],
-                    "value" : "No",
-                    "requiresAdditionalContext" : true,
-                    "additionalContext" : "",
-                    "instanceIdentifier" : false
-                }, 
-                {
-                    "id" : "d4ed367f-f7bc-4a4b-9945-ede697664cd5",
-                    "name" : "Scoring",
-                    "type" : "scoring",
-                    "label" : "If scan are performed, does the software scan specifically for OT devices?",
-                    "hint" : "",
-                    "options" : [ 
-                        {
-                            "label" : "Yes",
-                            "score" : 8,
-                            "recommendation" : "Procedures reported appear to comply with current best practices.",
-                            "isKeyRecommendation" : false
-                        }, 
-                        {
-                            "label" : "No",
-                            "score" : 1,
-                            "recommendation" : "Use a scanning tool designed or scripted to identify OT devices.  IT scanning tools may not discover OT devices.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "Unknown",
-                            "score" : 0,
-                            "recommendation" : "Develop policy outlining procedures to ensure that scanning tools are capable of discovering OT devices. ",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "NA",
-                            "score" : "",
-                            "recommendation" : "",
-                            "isKeyRecommendation" : false
-                        }
-                    ],
-                    "instance" : 1,
-                    "levels" : [ 
-                        "c1872bfe-50c0-40c8-ad38-afdd7960c9cd", 
-                        "8631bc9f-d93d-4602-b7f3-53e28be18602"
-                    ],
-                    "value" : "Unknown",
-                    "requiresAdditionalContext" : false,
-                    "additionalContext" : "",
-                    "instanceIdentifier" : false
-                }, 
-                {
-                    "id" : "ef2e7f63-599d-42b2-b828-a39b2974d28f",
-                    "name" : "Scoring",
-                    "type" : "scoring",
-                    "label" : "Are control system user identity configurations monitored for changes?",
-                    "hint" : "Configuration files identity changes to such things as user rights, number of users, password settings, etc.",
-                    "options" : [ 
-                        {
-                            "label" : "Yes",
-                            "score" : 8,
-                            "recommendation" : "Procedures reported appear to comply with current best practices.",
-                            "isKeyRecommendation" : false
-                        }, 
-                        {
-                            "label" : "No",
-                            "score" : 1,
-                            "recommendation" : "Monitor user configuration changes using the OT supplier's tools if available or periodic audits performed by the OT staff.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "Unknown",
-                            "score" : 0,
-                            "recommendation" : "Develop policy outlining procedures for monitoring changes to the control system user configurations.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "NA",
-                            "score" : "",
-                            "recommendation" : "Item not applicable at this time.",
-                            "isKeyRecommendation" : false
-                        }
-                    ],
-                    "instance" : 1,
-                    "levels" : [ 
-                        "c1872bfe-50c0-40c8-ad38-afdd7960c9cd", 
-                        "8631bc9f-d93d-4602-b7f3-53e28be18602"
-                    ],
-                    "value" : "No",
-                    "requiresAdditionalContext" : false,
-                    "additionalContext" : "",
-                    "instanceIdentifier" : false
-                }, 
-                {
-                    "id" : "b2d1cbbf-f46b-490e-a169-0446c75af67f",
-                    "name" : "Scoring",
-                    "type" : "scoring",
-                    "label" : "Are maintenance logs utilized?",
-                    "hint" : "",
-                    "options" : [ 
-                        {
-                            "label" : "Yes",
-                            "score" : 8,
-                            "recommendation" : "Procedures reported appear to comply with current best practices.",
-                            "isKeyRecommendation" : false
-                        }, 
-                        {
-                            "label" : "No",
-                            "score" : 3,
-                            "recommendation" : "Use maintenance logs to capture events including programming changes and modifications to system configurations.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "Unknown",
-                            "score" : 0,
-                            "recommendation" : "Develop policy outlining procedures for capturing maintenance logs from control systems.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "NA",
-                            "score" : "",
-                            "recommendation" : "Item not applicable at this time.",
-                            "isKeyRecommendation" : false
-                        }
-                    ],
-                    "instance" : 1,
-                    "levels" : [ 
-                        "c1872bfe-50c0-40c8-ad38-afdd7960c9cd", 
-                        "8631bc9f-d93d-4602-b7f3-53e28be18602"
-                    ],
-                    "value" : "Yes",
-                    "requiresAdditionalContext" : false,
-                    "additionalContext" : "",
-                    "instanceIdentifier" : false
-                }, 
-                {
-                    "id" : "d9854b78-3f99-4300-aa09-eb3185fecbf8",
-                    "name" : "Scoring",
-                    "type" : "scoring",
-                    "label" : "Are maintenance logs archived in a secure location?",
-                    "hint" : "",
-                    "options" : [ 
-                        {
-                            "label" : "Yes",
-                            "score" : 8,
-                            "recommendation" : "Procedures reported appear to comply with current best practices.",
-                            "isKeyRecommendation" : false
-                        }, 
-                        {
-                            "label" : "No",
-                            "score" : 3,
-                            "recommendation" : "Archive logs to a secure location other than the application server.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "Unknown",
-                            "score" : 0,
-                            "recommendation" : "Develop policy for archiving logs to a secure location.",
-                            "isKeyRecommendation" : false
-                        }, 
-                        {
-                            "label" : "NA",
-                            "score" : "",
-                            "recommendation" : "Item not applicable at this time.",
-                            "isKeyRecommendation" : false
-                        }
-                    ],
-                    "instance" : 1,
-                    "levels" : [ 
-                        "c1872bfe-50c0-40c8-ad38-afdd7960c9cd", 
-                        "8631bc9f-d93d-4602-b7f3-53e28be18602"
-                    ],
-                    "value" : "",
-                    "requiresAdditionalContext" : false,
-                    "additionalContext" : "",
-                    "instanceIdentifier" : false
-                }, 
-                {
-                    "id" : "57df29c1-41b3-4803-b40d-17bb94923c61",
-                    "name" : "Scoring",
-                    "type" : "scoring",
-                    "label" : "Are all devices connected to the control network known?",
-                    "hint" : "",
-                    "options" : [ 
-                        {
-                            "label" : "Yes",
-                            "score" : 8,
-                            "recommendation" : "Procedures reported appear to comply with current best practices.",
-                            "isKeyRecommendation" : false
-                        }, 
-                        {
-                            "label" : "No",
-                            "score" : 2,
-                            "recommendation" : "Scan the network for non-OT devices and remove all unnecessary devices from the control system network.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "Unknown",
-                            "score" : 0,
-                            "recommendation" : "Develop policy to scan the network for non-OT devices and remove all unnecessary devices.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "NA",
-                            "score" : "",
-                            "recommendation" : "Item not applicable at this time.",
-                            "isKeyRecommendation" : false
-                        }
-                    ],
-                    "instance" : 1,
-                    "levels" : [ 
-                        "4651c611-3936-48a7-8d27-fe4406cc481e", 
-                        "4eb7129b-4ab7-4c08-8c91-80a418b6acdc"
-                    ],
-                    "value" : "",
-                    "requiresAdditionalContext" : false,
-                    "additionalContext" : "",
-                    "instanceIdentifier" : false
-                }, 
-                {
-                    "id" : "3a68b996-4397-422f-8cda-46fd6008fd1a",
-                    "name" : "Scoring",
-                    "type" : "scoring",
-                    "label" : "Is the system documented in asset management?",
-                    "hint" : "",
-                    "options" : [ 
-                        {
-                            "label" : "Yes",
-                            "score" : 8,
-                            "recommendation" : "Procedures reported appear to comply with current best practices.",
-                            "isKeyRecommendation" : false
-                        }, 
-                        {
-                            "label" : "No",
-                            "score" : 2,
-                            "recommendation" : "Document the system in asset management and ensure that the inventory record is up-to-date.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "Unknown",
-                            "score" : 0,
-                            "recommendation" : "Develop a policy that requires that the control system devices are included in the asset management system and the records are up-to-date.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "NA",
-                            "score" : "",
-                            "recommendation" : "Item not applicable at this time.",
-                            "isKeyRecommendation" : false
-                        }
-                    ],
-                    "instance" : 1,
-                    "levels" : [ 
-                        "ec0ecee1-2915-45da-b7ab-a9dd49dd2d9d", 
-                        "4eb7129b-4ab7-4c08-8c91-80a418b6acdc"
-                    ],
-                    "value" : "",
-                    "requiresAdditionalContext" : false,
-                    "additionalContext" : "",
-                    "instanceIdentifier" : false
-                }, 
-                {
-                    "id" : "692c69a8-8dc0-4072-8d75-abbd3bcb9a44",
-                    "name" : "Scoring",
-                    "type" : "scoring",
-                    "label" : "Are there non-OT devices connected to the control network?",
-                    "hint" : "",
-                    "options" : [ 
-                        {
-                            "label" : "Yes",
-                            "score" : 5,
-                            "recommendation" : "Determine if non-OT devices are necessary to the control system.  Remove all devices that are not required.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "No",
-                            "score" : 5,
-                            "recommendation" : "Procedures reported appear to comply with current best practices.",
-                            "isKeyRecommendation" : false
-                        }, 
-                        {
-                            "label" : "Unknown",
-                            "score" : 0,
-                            "recommendation" : "Develop a policy that requires unnecessary non-OT devices to be removed from the control system network.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "NA",
-                            "score" : "",
-                            "recommendation" : "Item not applicable at this time.",
-                            "isKeyRecommendation" : false
-                        }
-                    ],
-                    "instance" : 1,
-                    "levels" : [ 
-                        "4651c611-3936-48a7-8d27-fe4406cc481e", 
-                        "4eb7129b-4ab7-4c08-8c91-80a418b6acdc"
-                    ],
-                    "value" : "",
-                    "requiresAdditionalContext" : false,
-                    "additionalContext" : "",
-                    "instanceIdentifier" : false
-                }, 
-                {
-                    "id" : "9d111c0f-6148-44b0-985f-157ac161f08b",
-                    "name" : "Scoring",
-                    "type" : "scoring",
-                    "label" : "Does the system have the capability of logging user action (i.e. audit logs)",
-                    "hint" : "",
-                    "options" : [ 
-                        {
-                            "label" : "Yes",
-                            "score" : 8,
-                            "recommendation" : "Procedures reported appear to comply with current best practices.",
-                            "isKeyRecommendation" : false
-                        }, 
-                        {
-                            "label" : "No",
-                            "score" : 2,
-                            "recommendation" : "Verify if the system is capable of logging user actions. If true, ensure that logging is enabled.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "Unknown",
-                            "score" : 0,
-                            "recommendation" : "Develop a policy that requires control systems to log user actions when the feature is available.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "NA",
-                            "score" : "",
-                            "recommendation" : "Item not applicable at this time.",
-                            "isKeyRecommendation" : false
-                        }
-                    ],
-                    "instance" : 1,
-                    "levels" : [ 
-                        "4651c611-3936-48a7-8d27-fe4406cc481e", 
-                        "4eb7129b-4ab7-4c08-8c91-80a418b6acdc"
-                    ],
-                    "value" : "",
-                    "requiresAdditionalContext" : false,
-                    "additionalContext" : "",
-                    "instanceIdentifier" : false
-                }, 
-                {
-                    "id" : "78a4f76e-be06-4665-a477-d36465695200",
-                    "name" : "Scoring",
-                    "type" : "scoring",
-                    "label" : "Are audit logs on the system set to maintain a minimum of one week of data?",
-                    "hint" : "",
-                    "options" : [ 
-                        {
-                            "label" : "Yes",
-                            "score" : 8,
-                            "recommendation" : "Procedures reported appear to comply with current best practices.",
-                            "isKeyRecommendation" : false
-                        }, 
-                        {
-                            "label" : "No",
-                            "score" : 2,
-                            "recommendation" : "Verify that the log configuration is set to store a minimum of one week of activity. ",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "Unknown",
-                            "score" : 0,
-                            "recommendation" : "Develop a policy that requires audit logs to store a minimum of one week of activity.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "NA",
-                            "score" : "",
-                            "recommendation" : "Item not applicable at this time.",
-                            "isKeyRecommendation" : false
-                        }
-                    ],
-                    "instance" : 1,
-                    "levels" : [ 
-                        "4651c611-3936-48a7-8d27-fe4406cc481e", 
-                        "4eb7129b-4ab7-4c08-8c91-80a418b6acdc"
-                    ],
-                    "value" : "",
-                    "requiresAdditionalContext" : false,
-                    "additionalContext" : "",
-                    "instanceIdentifier" : false
-                }, 
-                {
-                    "id" : "9d589b40-d560-4f2d-9367-9e92905785c2",
-                    "name" : "Scoring",
-                    "type" : "scoring",
-                    "label" : "Who installed the network?",
-                    "hint" : "",
-                    "options" : [ 
-                        {
-                            "label" : "IT Contractor",
-                            "score" : 8,
-                            "recommendation" : "Perform a review to ensure all architecture drawings and documentation is up-to-date.  Replace vulnerable equipment as needed.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "Owner",
-                            "score" : 3,
-                            "recommendation" : "Perform a review to ensure all architecture drawings and documentation is up-to-date.  Replace vulnerable equipment as needed.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "Integrator",
-                            "score" : 0,
-                            "recommendation" : "Perform a review to ensure all architecture drawings and documentation is up-to-date.  Replace vulnerable equipment as needed.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "Unknown",
-                            "score" : 0,
-                            "recommendation" : "Develop a policy that requires a review of the control system network to identify and replace any vulnerable equipment.",
-                            "isKeyRecommendation" : true
-                        }
-                    ],
-                    "instance" : 1,
-                    "levels" : [ 
-                        "4651c611-3936-48a7-8d27-fe4406cc481e", 
-                        "4eb7129b-4ab7-4c08-8c91-80a418b6acdc"
-                    ],
-                    "value" : "",
-                    "requiresAdditionalContext" : false,
-                    "additionalContext" : "",
-                    "instanceIdentifier" : false
-                }, 
-                {
-                    "id" : "68f7f1c9-3341-4787-8f85-933fd8979e9e",
-                    "name" : "Scoring",
-                    "type" : "scoring",
-                    "label" : "Are all components of the system fully supported by the manufacturer and / or vendor?",
-                    "hint" : "Is the system considered end-of-life by the manufacturer?",
-                    "options" : [ 
-                        {
-                            "label" : "Yes",
-                            "score" : 8,
-                            "recommendation" : "Procedures reported appear to comply with current best practices.",
-                            "isKeyRecommendation" : false
-                        }, 
-                        {
-                            "label" : "No",
-                            "score" : 2,
-                            "recommendation" : "Perform a review of the control system to identify any unsupported components and upgrade or replace them as needed.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "Unknown",
-                            "score" : 0,
-                            "recommendation" : "Develop a life cycle management policy that defines the procedures for replacing control system components that are no longer supported by the manufacturer.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "NA",
-                            "score" : 1,
-                            "recommendation" : "Item not applicable at this time.",
-                            "isKeyRecommendation" : false
-                        }
-                    ],
-                    "instance" : 1,
-                    "levels" : [ 
-                        "4651c611-3936-48a7-8d27-fe4406cc481e", 
-                        "023ab54d-4342-47d6-ad5c-de5ed24a9f0c"
-                    ],
-                    "value" : "",
-                    "requiresAdditionalContext" : false,
-                    "additionalContext" : "",
-                    "instanceIdentifier" : false
-                }, 
-                {
-                    "id" : "4a7c5e21-08eb-48db-a74f-bb8ec0d8d2c6",
-                    "name" : "Scoring",
-                    "type" : "scoring",
-                    "label" : "Are any authorized software applications dependent on the operating systems that are no longer supported by the operating system manufacturer?",
-                    "hint" : "Windows XP is an example of this",
-                    "options" : [ 
-                        {
-                            "label" : "Yes",
-                            "score" : 1,
-                            "recommendation" : "Until the application can be updated, create compensating controls to secure the system.  Update the application and operating system as soon as feasible.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "No",
-                            "score" : 8,
-                            "recommendation" : "Procedures reported appear to comply with current best practices.",
-                            "isKeyRecommendation" : false
-                        }, 
-                        {
-                            "label" : "Unknown",
-                            "score" : 0,
-                            "recommendation" : "Develop a policy that that ensures that unsupported software is identified and compensating controls are in place until such time as it can be upgraded or replaced.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "NA",
-                            "score" : "",
-                            "recommendation" : "Item not applicable at this time.",
-                            "isKeyRecommendation" : false
-                        }
-                    ],
-                    "instance" : 1,
-                    "levels" : [ 
-                        "4651c611-3936-48a7-8d27-fe4406cc481e", 
-                        "023ab54d-4342-47d6-ad5c-de5ed24a9f0c"
-                    ],
-                    "value" : "",
-                    "requiresAdditionalContext" : false,
-                    "additionalContext" : "",
-                    "instanceIdentifier" : false
-                }, 
-                {
-                    "id" : "f41ba8af-e493-4a5b-b3ca-101c2ffc6c7b",
-                    "name" : "Scoring",
-                    "type" : "scoring",
-                    "label" : "Have all unauthorized software applications been removed?",
-                    "hint" : "",
-                    "options" : [ 
-                        {
-                            "label" : "Yes",
-                            "score" : 8,
-                            "recommendation" : "Procedures reported appear to comply with current best practices.",
-                            "isKeyRecommendation" : false
-                        }, 
-                        {
-                            "label" : "No",
-                            "score" : 3,
-                            "recommendation" : "Identify and remove all unauthorized software applications that reside on the control system.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "Unknown",
-                            "score" : 0,
-                            "recommendation" : "Develop a policy that ensures that unauthorized software is always removed from control systems.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "NA",
-                            "score" : "",
-                            "recommendation" : "Item not applicable at this time.",
-                            "isKeyRecommendation" : false
-                        }
-                    ],
-                    "instance" : 1,
-                    "levels" : [ 
-                        "023ab54d-4342-47d6-ad5c-de5ed24a9f0c", 
-                        "4651c611-3936-48a7-8d27-fe4406cc481e"
-                    ],
-                    "value" : "",
-                    "requiresAdditionalContext" : false,
-                    "additionalContext" : "",
-                    "instanceIdentifier" : false
-                }, 
-                {
-                    "id" : "8811d2dc-31be-43af-b24a-81bb1842d3bf",
-                    "name" : "Scoring",
-                    "type" : "scoring",
-                    "label" : "Are front-end computers / servers used for any other functions other than for their designed and intended purpose?",
-                    "hint" : "Examples are access to personal email, social media, web browsing",
-                    "options" : [ 
-                        {
-                            "label" : "Yes",
-                            "score" : 1,
-                            "recommendation" : "Move front-end computer / server to a secure location and cease using it for any other purpose than for what it was designed.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "No",
-                            "score" : 8,
-                            "recommendation" : "Procedures reported appear to comply with current best practices.",
-                            "isKeyRecommendation" : false
-                        }, 
-                        {
-                            "label" : "Unknown",
-                            "score" : 0,
-                            "recommendation" : "Develop a policy to ensure that front-end computers / servers are only used for their intended purpose and are located in a secure location.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "NA",
-                            "score" : "",
-                            "recommendation" : "Item not applicable at this time.",
-                            "isKeyRecommendation" : false
-                        }
-                    ],
-                    "instance" : 1,
-                    "levels" : [ 
-                        "4651c611-3936-48a7-8d27-fe4406cc481e", 
-                        "023ab54d-4342-47d6-ad5c-de5ed24a9f0c"
-                    ],
-                    "value" : "",
-                    "requiresAdditionalContext" : false,
-                    "additionalContext" : "",
-                    "instanceIdentifier" : false
-                }, 
-                {
-                    "id" : "5c6e2981-d061-45df-bad6-186b017ef424",
-                    "name" : "Scoring",
-                    "type" : "scoring",
-                    "label" : "Is the front-end computer located in an area other than a secure environment?",
-                    "hint" : "",
-                    "options" : [ 
-                        {
-                            "label" : "Yes",
-                            "score" : 1,
-                            "recommendation" : "Remove and relocate the front-end server to a secure location.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "No",
-                            "score" : 8,
-                            "recommendation" : "Procedures reported appear to comply with current best practices.",
-                            "isKeyRecommendation" : false
-                        }, 
-                        {
-                            "label" : "Unknown",
-                            "score" : 0,
-                            "recommendation" : "Develop a policy that requires front-end servers to always be located in a secure location.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "NA",
-                            "score" : "",
-                            "recommendation" : "Item not applicable at this time.",
-                            "isKeyRecommendation" : false
-                        }
-                    ],
-                    "instance" : 1,
-                    "levels" : [ 
-                        "785fbd30-3c92-4600-8dcb-2f4bcf2925c8", 
-                        "023ab54d-4342-47d6-ad5c-de5ed24a9f0c"
-                    ],
-                    "value" : "",
-                    "requiresAdditionalContext" : false,
-                    "additionalContext" : "",
-                    "instanceIdentifier" : false
-                }, 
-                {
-                    "id" : "0034f56c-9568-4808-84fe-96eea1e741d3",
-                    "name" : "Scoring",
-                    "type" : "scoring",
-                    "label" : "Are there workstations available for facilities management personnel to use to access the front-end application?",
-                    "hint" : "",
-                    "options" : [ 
-                        {
-                            "label" : "Yes",
-                            "score" : 8,
-                            "recommendation" : "Procedures reported appear to comply with current best practices.",
-                            "isKeyRecommendation" : false
-                        }, 
-                        {
-                            "label" : "No",
-                            "score" : 2,
-                            "recommendation" : "Facilities management personnel should be given workstations that are dedicated for accessing the front-end application.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "Unknown",
-                            "score" : 0,
-                            "recommendation" : "Develop a policy that requires that all front-end servers are to be accessed using dedicated workstations.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "NA",
-                            "score" : 0,
-                            "recommendation" : "Item not applicable at this time.",
-                            "isKeyRecommendation" : false
-                        }
-                    ],
-                    "instance" : 1,
-                    "levels" : [ 
-                        "785fbd30-3c92-4600-8dcb-2f4bcf2925c8", 
-                        "023ab54d-4342-47d6-ad5c-de5ed24a9f0c"
-                    ],
-                    "value" : "",
-                    "requiresAdditionalContext" : false,
-                    "additionalContext" : "",
-                    "instanceIdentifier" : false
-                }, 
-                {
-                    "id" : "8c67892b-ef8a-49b6-abf0-f761663f0907",
-                    "name" : "Scoring",
-                    "type" : "scoring",
-                    "label" : "Are Admin credentials used for any other purpose than administering users?",
-                    "hint" : "",
-                    "options" : [ 
-                        {
-                            "label" : "Yes",
-                            "score" : 1,
-                            "recommendation" : "Admin credentials should only be used for administering users and making configuration changes.  Do not use for day-to-day functioning of running the control system application.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "No",
-                            "score" : 8,
-                            "recommendation" : "Procedures reported appear to comply with current best practices.",
-                            "isKeyRecommendation" : false
-                        }, 
-                        {
-                            "label" : "Unknown",
-                            "score" : 0,
-                            "recommendation" : "Develop a policy that limits admin credentials for administering users and making configuration changes to the control system application.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "NA",
-                            "score" : "",
-                            "recommendation" : "Item not applicable at this time.",
-                            "isKeyRecommendation" : false
-                        }
-                    ],
-                    "instance" : 1,
-                    "levels" : [ 
-                        "4651c611-3936-48a7-8d27-fe4406cc481e", 
-                        "023ab54d-4342-47d6-ad5c-de5ed24a9f0c"
-                    ],
-                    "value" : "",
-                    "requiresAdditionalContext" : false,
-                    "additionalContext" : "",
-                    "instanceIdentifier" : false
-                }, 
-                {
-                    "id" : "c70287bd-95af-43aa-a359-24d96351f7c6",
-                    "name" : "Scoring",
-                    "type" : "scoring",
-                    "label" : "Is the OT accessing external data / information sources such as weather?",
-                    "hint" : "",
-                    "options" : [ 
-                        {
-                            "label" : "Yes",
-                            "score" : 3,
-                            "recommendation" : "Audit the remote connection (s) to ensure that it is configured as securely as possible.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "No",
-                            "score" : 8,
-                            "recommendation" : "Procedures reported appear to comply with current best practices.",
-                            "isKeyRecommendation" : false
-                        }, 
-                        {
-                            "label" : "Unknown",
-                            "score" : 0,
-                            "recommendation" : "Develop a policy to ensure that control systems that access external data sources are securely configured.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "NA",
-                            "score" : "",
-                            "recommendation" : "Item not applicable at this time.",
-                            "isKeyRecommendation" : false
-                        }
-                    ],
-                    "instance" : 1,
-                    "levels" : [ 
-                        "785fbd30-3c92-4600-8dcb-2f4bcf2925c8", 
-                        "023ab54d-4342-47d6-ad5c-de5ed24a9f0c"
-                    ],
-                    "value" : "",
-                    "requiresAdditionalContext" : false,
-                    "additionalContext" : "",
-                    "instanceIdentifier" : false
-                }, 
-                {
-                    "id" : "dd49aabd-90a7-4275-aec5-eb02251b0d33",
-                    "name" : "Scoring",
-                    "type" : "scoring",
-                    "label" : "Are all unnecessary TCP/IP ports disabled?",
-                    "hint" : "",
-                    "options" : [ 
-                        {
-                            "label" : "Yes",
-                            "score" : 8,
-                            "recommendation" : "Procedures reported appear to comply with current best practices.",
-                            "isKeyRecommendation" : false
-                        }, 
-                        {
-                            "label" : "No",
-                            "score" : 3,
-                            "recommendation" : "Disable all unnecessary TCP / IP ports.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "Unknown",
-                            "score" : 0,
-                            "recommendation" : "Develop a policy that requires all unnecessary TCP / IP ports to be disabled on control systems.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "NA",
-                            "score" : "",
-                            "recommendation" : "Item not applicable at this time.",
-                            "isKeyRecommendation" : false
-                        }
-                    ],
-                    "instance" : 1,
-                    "levels" : [ 
-                        "4651c611-3936-48a7-8d27-fe4406cc481e", 
-                        "023ab54d-4342-47d6-ad5c-de5ed24a9f0c"
-                    ],
-                    "value" : "",
-                    "requiresAdditionalContext" : false,
-                    "additionalContext" : "",
-                    "instanceIdentifier" : false
-                }, 
-                {
-                    "id" : "e9a7d1a6-e6f4-4d2f-97f5-9e1765790896",
-                    "name" : "Scoring",
-                    "type" : "scoring",
-                    "label" : "Are alternate TCP/IP ports used in lieu of default ports for open protocols?",
-                    "hint" : "",
-                    "options" : [ 
-                        {
-                            "label" : "Yes",
-                            "score" : 8,
-                            "recommendation" : "Procedures reported appear to comply with current best practices.",
-                            "isKeyRecommendation" : false
-                        }, 
-                        {
-                            "label" : "No",
-                            "score" : 5,
-                            "recommendation" : "Whenever possible, select an alternative to the default open protocol port.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "Unknown",
-                            "score" : 0,
-                            "recommendation" : "Develop a policy that requires alternative ports to be configured in lieu of the default open protocol port.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "NA",
-                            "score" : "",
-                            "recommendation" : "Item not applicable at this time.",
-                            "isKeyRecommendation" : false
-                        }
-                    ],
-                    "instance" : 1,
-                    "levels" : [ 
-                        "ec0ecee1-2915-45da-b7ab-a9dd49dd2d9d", 
-                        "023ab54d-4342-47d6-ad5c-de5ed24a9f0c"
-                    ],
-                    "value" : "",
-                    "requiresAdditionalContext" : false,
-                    "additionalContext" : "",
-                    "instanceIdentifier" : false
-                }, 
-                {
-                    "id" : "fd1a4fbe-fc4a-4dd7-935b-a3cf8a3662e0",
-                    "name" : "Scoring",
-                    "type" : "scoring",
-                    "label" : "Does this control system send data outbound to 3rd party cloud services?",
-                    "hint" : "For example, energy data is sent to a service for analysis",
-                    "options" : [ 
-                        {
-                            "label" : "Yes",
-                            "score" : 5,
-                            "recommendation" : "Verify that the connection to the 3rd party cloud service is securely configured.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "No",
-                            "score" : 8,
-                            "recommendation" : "Procedures reported appear to comply with current best practices.",
-                            "isKeyRecommendation" : false
-                        }, 
-                        {
-                            "label" : "Unknown",
-                            "score" : 0,
-                            "recommendation" : "Develop a policy that requires a secure connection to all 3rd party cloud services.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "NA",
-                            "score" : "",
-                            "recommendation" : "Item not applicable at this time.",
-                            "isKeyRecommendation" : false
-                        }
-                    ],
-                    "instance" : 1,
-                    "levels" : [ 
-                        "785fbd30-3c92-4600-8dcb-2f4bcf2925c8", 
-                        "023ab54d-4342-47d6-ad5c-de5ed24a9f0c"
-                    ],
-                    "value" : "",
-                    "requiresAdditionalContext" : false,
-                    "additionalContext" : "",
-                    "instanceIdentifier" : false
-                }, 
-                {
-                    "id" : "6486467f-16e3-4f25-95ef-3684ed12a864",
-                    "name" : "Scoring",
-                    "type" : "scoring",
-                    "label" : "If data is sent to a 3rd party service, is the access controlled by the owner of the service?",
-                    "hint" : "",
-                    "options" : [ 
-                        {
-                            "label" : "Yes",
-                            "score" : 8,
-                            "recommendation" : "Procedures reported appear to comply with current best practices.",
-                            "isKeyRecommendation" : false
-                        }, 
-                        {
-                            "label" : "No",
-                            "score" : 2,
-                            "recommendation" : "As soon as possible, the owner should take full responsibility for controlling access to the 3rd party cloud service.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "Unknown",
-                            "score" : 0,
-                            "recommendation" : "Develop a policy that requires the system owner to control access to all 3rd party cloud services.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "NA",
-                            "score" : "",
-                            "recommendation" : "Item not applicable at this time.",
-                            "isKeyRecommendation" : false
-                        }
-                    ],
-                    "instance" : 1,
-                    "levels" : [ 
-                        "c1872bfe-50c0-40c8-ad38-afdd7960c9cd", 
-                        "023ab54d-4342-47d6-ad5c-de5ed24a9f0c"
-                    ],
-                    "value" : "",
-                    "requiresAdditionalContext" : false,
-                    "additionalContext" : "",
-                    "instanceIdentifier" : false
-                }, 
-                {
-                    "id" : "145fa596-e21b-4076-accc-6bf6ee81489c",
-                    "name" : "Scoring",
-                    "type" : "scoring",
-                    "label" : "Who manages the network devices?",
-                    "hint" : "",
-                    "options" : [ 
-                        {
-                            "label" : "IT Contractor",
-                            "score" : 5,
-                            "recommendation" : "If not already established, audit the IT contractor's service periodically.  Quarterly audits are recommended.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "Owner",
-                            "score" : 8,
-                            "recommendation" : "Procedures reported appear to comply with current best practices.",
-                            "isKeyRecommendation" : false
-                        }, 
-                        {
-                            "label" : "Integrator",
-                            "score" : 2,
-                            "recommendation" : "If not already established, audit the IT contractor's service periodically.  Quarterly audits are recommended.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "Unknown",
-                            "score" : 0,
-                            "recommendation" : "Develop a policy that requires audits of 3rd party network management providers.",
-                            "isKeyRecommendation" : true
-                        }
-                    ],
-                    "instance" : 1,
-                    "levels" : [ 
-                        "c1872bfe-50c0-40c8-ad38-afdd7960c9cd", 
-                        "023ab54d-4342-47d6-ad5c-de5ed24a9f0c"
-                    ],
-                    "value" : "",
-                    "requiresAdditionalContext" : false,
-                    "additionalContext" : "",
-                    "instanceIdentifier" : false
-                }, 
-                {
-                    "id" : "c965027c-06e4-40dc-a93d-ed4c4fe68c0d",
-                    "name" : "Scoring",
-                    "type" : "scoring",
-                    "label" : "Is the control system remotely accessible?",
-                    "hint" : "",
-                    "options" : [ 
-                        {
-                            "label" : "Yes",
-                            "score" : 1,
-                            "recommendation" : "Ensure that remote access is not via a public IP address or is controlled by the integrator.  If a public IP is in use, remove it, and place the system behind a firewall, and assume control over access to the system.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "No",
-                            "score" : 8,
-                            "recommendation" : "No further action is required.",
-                            "isKeyRecommendation" : false
-                        }, 
-                        {
-                            "label" : "Unknown",
-                            "score" : 0,
-                            "recommendation" : "Develop a policy that disallows the use of public IP addresses for remote communications.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "NA",
-                            "score" : "",
-                            "recommendation" : "Item not applicable at this time.",
-                            "isKeyRecommendation" : false
-                        }
-                    ],
-                    "instance" : 1,
-                    "levels" : [ 
-                        "785fbd30-3c92-4600-8dcb-2f4bcf2925c8", 
-                        "023ab54d-4342-47d6-ad5c-de5ed24a9f0c"
-                    ],
-                    "value" : "",
-                    "requiresAdditionalContext" : false,
-                    "additionalContext" : "",
-                    "instanceIdentifier" : false
-                }, 
-                {
-                    "id" : "c3c87487-e171-4eca-bcca-b4d1a7fb6b8f",
-                    "name" : "Scoring",
-                    "type" : "scoring",
-                    "label" : "If the control system is remotely accessible, does the owner of the system manage remote access?",
-                    "hint" : "",
-                    "options" : [ 
-                        {
-                            "label" : "Yes",
-                            "score" : 8,
-                            "recommendation" : "Procedures reported appear to comply with current best practices.",
-                            "isKeyRecommendation" : false
-                        }, 
-                        {
-                            "label" : "No",
-                            "score" : 1,
-                            "recommendation" : "The owner should take ownership of who is allowed remote access as soon as feasible.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "Unknown",
-                            "score" : 0,
-                            "recommendation" : "Develop a policy that requires the owner to control access for all remote users.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "NA",
-                            "score" : "",
-                            "recommendation" : "Item not applicable at this time.",
-                            "isKeyRecommendation" : false
-                        }
-                    ],
-                    "instance" : 1,
-                    "levels" : [ 
-                        "785fbd30-3c92-4600-8dcb-2f4bcf2925c8", 
-                        "023ab54d-4342-47d6-ad5c-de5ed24a9f0c"
-                    ],
-                    "value" : "",
-                    "requiresAdditionalContext" : false,
-                    "additionalContext" : "",
-                    "instanceIdentifier" : false
-                }, 
-                {
-                    "id" : "d63c8662-441d-4adc-bd8a-5ac2346282f2",
-                    "name" : "Scoring",
-                    "type" : "scoring",
-                    "label" : "If the remote access is not controlled by the owner, is it managed by a 3rd party other than the vendor of the system?",
-                    "hint" : "",
-                    "options" : [ 
-                        {
-                            "label" : "Yes",
-                            "score" : 5,
-                            "recommendation" : "Review the agreement with the 3rd party to ensure that all security policies are being enforced.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "No",
-                            "score" : 2,
-                            "recommendation" : "Identify who controls access and as the owner assume responsibility for it going forward.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "Unknown",
-                            "score" : 0,
-                            "recommendation" : "Develop a policy that governs ownership of remote access.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "NA",
-                            "score" : "",
-                            "recommendation" : "Item not applicable at this time.",
-                            "isKeyRecommendation" : false
-                        }
-                    ],
-                    "instance" : 1,
-                    "levels" : [ 
-                        "785fbd30-3c92-4600-8dcb-2f4bcf2925c8", 
-                        "023ab54d-4342-47d6-ad5c-de5ed24a9f0c"
-                    ],
-                    "value" : "",
-                    "requiresAdditionalContext" : false,
-                    "additionalContext" : "",
-                    "instanceIdentifier" : false
-                }, 
-                {
-                    "id" : "0c2f0529-e6a8-41ba-9296-9d1db52a4e06",
-                    "name" : "Scoring",
-                    "type" : "scoring",
-                    "label" : "Is the system remotely accessible via a public IP address?",
-                    "hint" : "",
-                    "options" : [ 
-                        {
-                            "label" : "Yes",
-                            "score" : 1,
-                            "recommendation" : "Remove the public IP address and place the control system behind a firewall.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "No",
-                            "score" : 8,
-                            "recommendation" : "Procedures reported appear to comply with current best practices.",
-                            "isKeyRecommendation" : false
-                        }, 
-                        {
-                            "label" : "Unknown",
-                            "score" : 0,
-                            "recommendation" : "Develop a policy that prevents the use of public IP addresses for remotely accessing control systems.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "NA",
-                            "score" : "",
-                            "recommendation" : "Item not applicable at this time.",
-                            "isKeyRecommendation" : false
-                        }
-                    ],
-                    "instance" : 1,
-                    "levels" : [ 
-                        "4651c611-3936-48a7-8d27-fe4406cc481e", 
-                        "023ab54d-4342-47d6-ad5c-de5ed24a9f0c"
-                    ],
-                    "value" : "",
-                    "requiresAdditionalContext" : false,
-                    "additionalContext" : "",
-                    "instanceIdentifier" : false
-                }, 
-                {
-                    "id" : "db32c3fa-076e-4386-a10d-dd09d70c5177",
-                    "name" : "Scoring",
-                    "type" : "scoring",
-                    "label" : "Does the vendor have remote access to the system?",
-                    "hint" : "",
-                    "options" : [ 
-                        {
-                            "label" : "Yes",
-                            "score" : 2,
-                            "recommendation" : "Verify that the vendor is in compliance with the owner's security policies.  ",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "No",
-                            "score" : 8,
-                            "recommendation" : "Procedures reported appear to comply with current best practices.",
-                            "isKeyRecommendation" : false
-                        }, 
-                        {
-                            "label" : "Unknown",
-                            "score" : 0,
-                            "recommendation" : "Develop a policy that requires all vendors with remote access to comply with the owner's security policies.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "NA",
-                            "score" : "",
-                            "recommendation" : "Item not applicable at this time.",
-                            "isKeyRecommendation" : false
-                        }
-                    ],
-                    "instance" : 1,
-                    "levels" : [ 
-                        "785fbd30-3c92-4600-8dcb-2f4bcf2925c8", 
-                        "023ab54d-4342-47d6-ad5c-de5ed24a9f0c"
-                    ],
-                    "value" : "",
-                    "requiresAdditionalContext" : false,
-                    "additionalContext" : "",
-                    "instanceIdentifier" : false
-                }, 
-                {
-                    "id" : "eb56ccbc-041d-4ab7-9617-1c47a0d7ad3e",
-                    "name" : "Scoring",
-                    "type" : "scoring",
-                    "label" : "If the vendor has remote access, do they have control of the remote access?",
-                    "hint" : "",
-                    "options" : [ 
-                        {
-                            "label" : "Yes",
-                            "score" : 1,
-                            "recommendation" : "The owner should assume responsibility for controlling remote access as soon as feasible.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "No",
-                            "score" : 8,
-                            "recommendation" : "Procedures reported appear to comply with current best practices.",
-                            "isKeyRecommendation" : false
-                        }, 
-                        {
-                            "label" : "Unknown",
-                            "score" : 0,
-                            "recommendation" : "Develop a policy that requires the owner to control remote access to the control system for all vendors.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "NA",
-                            "score" : "",
-                            "recommendation" : "Item not applicable at this time.",
-                            "isKeyRecommendation" : false
-                        }
-                    ],
-                    "instance" : 1,
-                    "levels" : [ 
-                        "c1872bfe-50c0-40c8-ad38-afdd7960c9cd", 
-                        "023ab54d-4342-47d6-ad5c-de5ed24a9f0c"
-                    ],
-                    "value" : "",
-                    "requiresAdditionalContext" : false,
-                    "additionalContext" : "",
-                    "instanceIdentifier" : false
-                }, 
-                {
-                    "id" : "d98019d0-5d0c-498e-a58b-7be1fd35bfc0",
-                    "name" : "Scoring",
-                    "type" : "scoring",
-                    "label" : "Does the vendor have unrestricted remote access?",
-                    "hint" : "",
-                    "options" : [ 
-                        {
-                            "label" : "Yes",
-                            "score" : 1,
-                            "recommendation" : "Transition the vendor to having owner-controlled access on an as-needed basis.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "No",
-                            "score" : 8,
-                            "recommendation" : "Procedures reported appear to comply with current best practices.",
-                            "isKeyRecommendation" : false
-                        }, 
-                        {
-                            "label" : "Unknown",
-                            "score" : 0,
-                            "recommendation" : "Develop a policy that restricts remote vendor access on an as-needed basis.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "NA",
-                            "score" : "",
-                            "recommendation" : "Item not applicable at this time.",
-                            "isKeyRecommendation" : false
-                        }
-                    ],
-                    "instance" : 1,
-                    "levels" : [ 
-                        "4651c611-3936-48a7-8d27-fe4406cc481e", 
-                        "023ab54d-4342-47d6-ad5c-de5ed24a9f0c"
-                    ],
-                    "value" : "",
-                    "requiresAdditionalContext" : false,
-                    "additionalContext" : "",
-                    "instanceIdentifier" : false
-                }, 
-                {
-                    "id" : "474115b9-aa20-4ea1-8371-5484e3f2e0fa",
-                    "name" : "Scoring",
-                    "type" : "scoring",
-                    "label" : "Is data-in-use protected?",
-                    "hint" : "Is the data in the system encrypted?",
-                    "options" : [ 
-                        {
-                            "label" : "Yes",
-                            "score" : 8,
-                            "recommendation" : "Procedures reported appear to comply with current best practices.",
-                            "isKeyRecommendation" : false
-                        }, 
-                        {
-                            "label" : "No",
-                            "score" : 3,
-                            "recommendation" : "If the control system supports it, enable encryption of all data-in-use.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "Unknown",
-                            "score" : 0,
-                            "recommendation" : "Develop a policy that favors the use of encryption for data-in-use from control system vendors.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "NA",
-                            "score" : "",
-                            "recommendation" : "Item not applicable at this time.",
-                            "isKeyRecommendation" : false
-                        }
-                    ],
-                    "instance" : 1,
-                    "levels" : [ 
-                        "4651c611-3936-48a7-8d27-fe4406cc481e", 
-                        "023ab54d-4342-47d6-ad5c-de5ed24a9f0c"
-                    ],
-                    "value" : "",
-                    "requiresAdditionalContext" : false,
-                    "additionalContext" : "",
-                    "instanceIdentifier" : false
-                }, 
-                {
-                    "id" : "a5a5f59d-5f69-43e2-bff6-5d2faeca9e21",
-                    "name" : "Scoring",
-                    "type" : "scoring",
-                    "label" : "Are all users in the system assigned only those rights necessary to perform their function?",
-                    "hint" : "",
-                    "options" : [ 
-                        {
-                            "label" : "Yes",
-                            "score" : 8,
-                            "recommendation" : "Procedures reported appear to comply with current best practices.",
-                            "isKeyRecommendation" : false
-                        }, 
-                        {
-                            "label" : "No",
-                            "score" : 2,
-                            "recommendation" : "Create role-based access control (RBAC) for all users.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "Unknown",
-                            "score" : 0,
-                            "recommendation" : "Develop a policy that requires role-based access control (RBAC) for all users.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "NA",
-                            "score" : "",
-                            "recommendation" : "Item not applicable at this time.",
-                            "isKeyRecommendation" : false
-                        }
-                    ],
-                    "instance" : 1,
-                    "levels" : [ 
-                        "785fbd30-3c92-4600-8dcb-2f4bcf2925c8", 
-                        "023ab54d-4342-47d6-ad5c-de5ed24a9f0c"
-                    ],
-                    "value" : "",
-                    "requiresAdditionalContext" : false,
-                    "additionalContext" : "",
-                    "instanceIdentifier" : false
-                }, 
-                {
-                    "id" : "a05aa936-5297-4ac8-830f-c1f0bd866da6",
-                    "name" : "Scoring",
-                    "type" : "scoring",
-                    "label" : "Does each user have a unique account?",
-                    "hint" : "",
-                    "options" : [ 
-                        {
-                            "label" : "Yes",
-                            "score" : 8,
-                            "recommendation" : "Procedures reported appear to comply with current best practices.",
-                            "isKeyRecommendation" : false
-                        }, 
-                        {
-                            "label" : "No",
-                            "score" : 1,
-                            "recommendation" : "Assign each user of the system (including vendors) a unique user account name (i.e. no shared accounts).",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "Unknown",
-                            "score" : 0,
-                            "recommendation" : "Develop a policy that requires all user accounts to be unique (i.e. no shared accounts).",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "NA",
-                            "score" : "",
-                            "recommendation" : "Item not applicable at this time.",
-                            "isKeyRecommendation" : false
-                        }
-                    ],
-                    "instance" : 1,
-                    "levels" : [ 
-                        "785fbd30-3c92-4600-8dcb-2f4bcf2925c8", 
-                        "023ab54d-4342-47d6-ad5c-de5ed24a9f0c"
-                    ],
-                    "value" : "",
-                    "requiresAdditionalContext" : false,
-                    "additionalContext" : "",
-                    "instanceIdentifier" : false
-                }, 
-                {
-                    "id" : "80542abb-4dfd-46b7-bf3d-887c78367c3e",
-                    "name" : "Scoring",
-                    "type" : "scoring",
-                    "label" : "If a guest account is present, is it disabled?",
-                    "hint" : "",
-                    "options" : [ 
-                        {
-                            "label" : "Yes",
-                            "score" : 8,
-                            "recommendation" : "Procedures reported appear to comply with current best practices.",
-                            "isKeyRecommendation" : false
-                        }, 
-                        {
-                            "label" : "No",
-                            "score" : 1,
-                            "recommendation" : "Disable the guest account.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "Unknown",
-                            "score" : 0,
-                            "recommendation" : "Develop a policy that requires all guest accounts to be disabled.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "NA",
-                            "score" : "",
-                            "recommendation" : "Item not applicable at this time.",
-                            "isKeyRecommendation" : false
-                        }
-                    ],
-                    "instance" : 1,
-                    "levels" : [ 
-                        "4651c611-3936-48a7-8d27-fe4406cc481e", 
-                        "023ab54d-4342-47d6-ad5c-de5ed24a9f0c"
-                    ],
-                    "value" : "",
-                    "requiresAdditionalContext" : false,
-                    "additionalContext" : "",
-                    "instanceIdentifier" : false
-                }, 
-                {
-                    "id" : "d70323ff-659c-4627-9833-ac05bda33aca",
-                    "name" : "Scoring",
-                    "type" : "scoring",
-                    "label" : "Are manufacturer default credentials in use?",
-                    "hint" : "",
-                    "options" : [ 
-                        {
-                            "label" : "Yes",
-                            "score" : 1,
-                            "recommendation" : "If the system supports the option, remove all manufacturer default credentials.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "No",
-                            "score" : 8,
-                            "recommendation" : "Procedures reported appear to comply with current best practices.",
-                            "isKeyRecommendation" : false
-                        }, 
-                        {
-                            "label" : "Unknown",
-                            "score" : 0,
-                            "recommendation" : "Develop a policy that removes manufacturer default credentials whenever allowed.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "NA",
-                            "score" : "",
-                            "recommendation" : "Item not applicable at this time.",
-                            "isKeyRecommendation" : false
-                        }
-                    ],
-                    "instance" : 1,
-                    "levels" : [ 
-                        "4651c611-3936-48a7-8d27-fe4406cc481e", 
-                        "023ab54d-4342-47d6-ad5c-de5ed24a9f0c"
-                    ],
-                    "value" : "",
-                    "requiresAdditionalContext" : false,
-                    "additionalContext" : "",
-                    "instanceIdentifier" : false
-                }, 
-                {
-                    "id" : "cd9c7571-6cdd-4683-a061-e96b75d124b7",
-                    "name" : "Scoring",
-                    "type" : "scoring",
-                    "label" : "If there is a manufacturer account present has the default password been changed?",
-                    "hint" : "",
-                    "options" : [ 
-                        {
-                            "label" : "Yes",
-                            "score" : 8,
-                            "recommendation" : "Procedures reported appear to comply with current best practices.",
-                            "isKeyRecommendation" : false
-                        }, 
-                        {
-                            "label" : "No",
-                            "score" : 1,
-                            "recommendation" : "Change the default manufacturer's password.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "Unknown",
-                            "score" : 0,
-                            "recommendation" : "Develop a policy that replaces all manufacturer default passwords.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "NA",
-                            "score" : "",
-                            "recommendation" : "Item not applicable at this time.",
-                            "isKeyRecommendation" : false
-                        }
-                    ],
-                    "instance" : 1,
-                    "levels" : [ 
-                        "4651c611-3936-48a7-8d27-fe4406cc481e", 
-                        "023ab54d-4342-47d6-ad5c-de5ed24a9f0c"
-                    ],
-                    "value" : "",
-                    "requiresAdditionalContext" : false,
-                    "additionalContext" : "",
-                    "instanceIdentifier" : false
-                }, 
-                {
-                    "id" : "a89cdfbf-fcf7-4238-a07d-0be5a1de921e",
-                    "name" : "Scoring",
-                    "type" : "scoring",
-                    "label" : "Are passwords set to expire?",
-                    "hint" : "",
-                    "options" : [ 
-                        {
-                            "label" : "Yes",
-                            "score" : 8,
-                            "recommendation" : "Procedures reported appear to comply with current best practices.",
-                            "isKeyRecommendation" : false
-                        }, 
-                        {
-                            "label" : "No",
-                            "score" : 3,
-                            "recommendation" : "Set all user passwords to expire in compliance with the owner's security policy.",
-                            "isKeyRecommendation" : false
-                        }, 
-                        {
-                            "label" : "Unknown",
-                            "score" : 0,
-                            "recommendation" : "Develop a policy for automatically expiring passwords at a future date.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "NA",
-                            "score" : "",
-                            "recommendation" : "Item not applicable at this time.",
-                            "isKeyRecommendation" : false
-                        }
-                    ],
-                    "instance" : 1,
-                    "levels" : [ 
-                        "4651c611-3936-48a7-8d27-fe4406cc481e", 
-                        "023ab54d-4342-47d6-ad5c-de5ed24a9f0c"
-                    ],
-                    "value" : "",
-                    "requiresAdditionalContext" : false,
-                    "additionalContext" : "",
-                    "instanceIdentifier" : false
-                }, 
-                {
-                    "id" : "3357b973-2a19-47af-96b2-ea4e3687c73d",
-                    "name" : "Scoring",
-                    "type" : "scoring",
-                    "label" : "If set to expire, is the period greater than 12 months",
-                    "hint" : "",
-                    "options" : [ 
-                        {
-                            "label" : "Yes",
-                            "score" : 3,
-                            "recommendation" : "The expiration period should be between 3 and 6 months.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "No",
-                            "score" : 5,
-                            "recommendation" : "Procedures reported appear to comply with current best practices.",
-                            "isKeyRecommendation" : false
-                        }, 
-                        {
-                            "label" : "Unknown",
-                            "score" : 0,
-                            "recommendation" : "Develop an expiration policy that requires that passwords automatically expire in no more than 6 months.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "NA",
-                            "score" : "",
-                            "recommendation" : "Item not applicable at this time.",
-                            "isKeyRecommendation" : false
-                        }
-                    ],
-                    "instance" : 1,
-                    "levels" : [ 
-                        "4651c611-3936-48a7-8d27-fe4406cc481e", 
-                        "023ab54d-4342-47d6-ad5c-de5ed24a9f0c"
-                    ],
-                    "value" : "",
-                    "requiresAdditionalContext" : false,
-                    "additionalContext" : "",
-                    "instanceIdentifier" : false
-                }, 
-                {
-                    "id" : "5c1159ae-0463-4d2d-82e9-8c4663615434",
-                    "name" : "Scoring",
-                    "type" : "scoring",
-                    "label" : "Is auto lockout enabled?",
-                    "hint" : "",
-                    "options" : [ 
-                        {
-                            "label" : "Yes",
-                            "score" : 8,
-                            "recommendation" : "Procedures reported appear to comply with current best practices.",
-                            "isKeyRecommendation" : false
-                        }, 
-                        {
-                            "label" : "No",
-                            "score" : 2,
-                            "recommendation" : "if the system supports this feature, enable auto-lockout.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "Unknown",
-                            "score" : 0,
-                            "recommendation" : "Develop a policy that requires the enablement of auto-lockout for control systems that support this feature.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "NA",
-                            "score" : "",
-                            "recommendation" : "Item not applicable at this time.",
-                            "isKeyRecommendation" : false
-                        }
-                    ],
-                    "instance" : 1,
-                    "levels" : [ 
-                        "c1872bfe-50c0-40c8-ad38-afdd7960c9cd", 
-                        "023ab54d-4342-47d6-ad5c-de5ed24a9f0c"
-                    ],
-                    "value" : "",
-                    "requiresAdditionalContext" : false,
-                    "additionalContext" : "",
-                    "instanceIdentifier" : false
-                }, 
-                {
-                    "id" : "75a2ad73-533a-46f2-8c4a-86498a9f102f",
-                    "name" : "Scoring",
-                    "type" : "scoring",
-                    "label" : "If auto lockout is enabled, is the lockout period 30 minutes or greater?",
-                    "hint" : "",
-                    "options" : [ 
-                        {
-                            "label" : "Yes",
-                            "score" : 8,
-                            "recommendation" : "Procedures reported appear to comply with current best practices.",
-                            "isKeyRecommendation" : false
-                        }, 
-                        {
-                            "label" : "No",
-                            "score" : 2,
-                            "recommendation" : "Set the auto-lockout feature to a minimum of 30 minutes with the option for admin reset.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "Unknown",
-                            "score" : 0,
-                            "recommendation" : "Develop an auto-lockout policy for a minimum of 30 minutes with the option for admin reset.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "NA",
-                            "score" : "",
-                            "recommendation" : "Item not applicable at this time.",
-                            "isKeyRecommendation" : false
-                        }
-                    ],
-                    "instance" : 1,
-                    "levels" : [ 
-                        "c1872bfe-50c0-40c8-ad38-afdd7960c9cd", 
-                        "023ab54d-4342-47d6-ad5c-de5ed24a9f0c"
-                    ],
-                    "value" : "",
-                    "requiresAdditionalContext" : false,
-                    "additionalContext" : "",
-                    "instanceIdentifier" : false
-                }, 
-                {
-                    "id" : "d3ba08a6-c593-41bb-9e30-ec83110ab7ed",
-                    "name" : "Scoring",
-                    "type" : "scoring",
-                    "label" : "If auto lockout is enabled, does the account lockout after 5 or fewer attempts?",
-                    "hint" : "",
-                    "options" : [ 
-                        {
-                            "label" : "Yes",
-                            "score" : 8,
-                            "recommendation" : "Procedures reported appear to comply with current best practices.",
-                            "isKeyRecommendation" : false
-                        }, 
-                        {
-                            "label" : "No",
-                            "score" : 2,
-                            "recommendation" : "Set the auto-lockout feature to 5 unsuccessful access attempts.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "Unknown",
-                            "score" : 0,
-                            "recommendation" : "Create an auto-lockout policy that limits logons to five attempts for control systems that support this feature.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "NA",
-                            "score" : "",
-                            "recommendation" : "Item not applicable at this time.",
-                            "isKeyRecommendation" : false
-                        }
-                    ],
-                    "instance" : 1,
-                    "levels" : [ 
-                        "c1872bfe-50c0-40c8-ad38-afdd7960c9cd", 
-                        "023ab54d-4342-47d6-ad5c-de5ed24a9f0c"
-                    ],
-                    "value" : "",
-                    "requiresAdditionalContext" : false,
-                    "additionalContext" : "",
-                    "instanceIdentifier" : false
-                }, 
-                {
-                    "id" : "9c01c91e-fcf4-4183-a46e-debfd06319a2",
-                    "name" : "Scoring",
-                    "type" : "scoring",
-                    "label" : "Are there at least two administrator?",
-                    "hint" : "",
-                    "options" : [ 
-                        {
-                            "label" : "Yes",
-                            "score" : 5,
-                            "recommendation" : "Procedures reported appear to comply with current best practices.",
-                            "isKeyRecommendation" : false
-                        }, 
-                        {
-                            "label" : "No",
-                            "score" : 3,
-                            "recommendation" : "Typically only 2 admins are needed for a control system, with a maximum of 4 recommended.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "Unknown",
-                            "score" : 0,
-                            "recommendation" : "Develop a policy that controls the number of System Admins for each control system.  A minimum of 2 is recommended and a maximum of 4.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "NA",
-                            "score" : "",
-                            "recommendation" : "Item not applicable at this time.",
-                            "isKeyRecommendation" : false
-                        }
-                    ],
-                    "instance" : 1,
-                    "levels" : [ 
-                        "785fbd30-3c92-4600-8dcb-2f4bcf2925c8", 
-                        "023ab54d-4342-47d6-ad5c-de5ed24a9f0c"
-                    ],
-                    "value" : "",
-                    "requiresAdditionalContext" : false,
-                    "additionalContext" : "",
-                    "instanceIdentifier" : false
-                }, 
-                {
-                    "id" : "48a91306-80ca-45e8-909e-a822f6358732",
-                    "name" : "Scoring",
-                    "type" : "scoring",
-                    "label" : "Does the operating system have active vendor credentials?",
-                    "hint" : "",
-                    "options" : [ 
-                        {
-                            "label" : "Yes",
-                            "score" : 2,
-                            "recommendation" : "Vendor credentials should only be active on an \"as-needed\" basis.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "No",
-                            "score" : 8,
-                            "recommendation" : "It is recommended that vendor users are only added to the system on an \"as-needed\" basis.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "Unknown",
-                            "score" : 0,
-                            "recommendation" : "Develop a policy that limits vendor access to the control system operating system on an \"as-needed\" basis.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "NA",
-                            "score" : "",
-                            "recommendation" : "Item not applicable at this time.",
-                            "isKeyRecommendation" : false
-                        }
-                    ],
-                    "instance" : 1,
-                    "levels" : [ 
-                        "4651c611-3936-48a7-8d27-fe4406cc481e", 
-                        "023ab54d-4342-47d6-ad5c-de5ed24a9f0c"
-                    ],
-                    "value" : "",
-                    "requiresAdditionalContext" : false,
-                    "additionalContext" : "",
-                    "instanceIdentifier" : false
-                }, 
-                {
-                    "id" : "e5923e12-394f-45ed-ad6b-27acd74c4337",
-                    "name" : "Scoring",
-                    "type" : "scoring",
-                    "label" : "If the operating system has vendor credentials, does the vendor use a unique account?",
-                    "hint" : "",
-                    "options" : [ 
-                        {
-                            "label" : "Yes",
-                            "score" : 8,
-                            "recommendation" : "Procedures reported appear to comply with current best practices.",
-                            "isKeyRecommendation" : false
-                        }, 
-                        {
-                            "label" : "No",
-                            "score" : 2,
-                            "recommendation" : "Set up a unique account for each vendor user.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "Unknown",
-                            "score" : 0,
-                            "recommendation" : "Develop a policy requiring unique user credentials for vendor access to the operating system.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "NA",
-                            "score" : "",
-                            "recommendation" : "Item not applicable at this time.",
-                            "isKeyRecommendation" : false
-                        }
-                    ],
-                    "instance" : 1,
-                    "levels" : [ 
-                        "4651c611-3936-48a7-8d27-fe4406cc481e", 
-                        "023ab54d-4342-47d6-ad5c-de5ed24a9f0c"
-                    ],
-                    "value" : "",
-                    "requiresAdditionalContext" : false,
-                    "additionalContext" : "",
-                    "instanceIdentifier" : false
-                }, 
-                {
-                    "id" : "6595a796-f08c-40d0-a276-3d3fe69aaeb1",
-                    "name" : "Scoring",
-                    "type" : "scoring",
-                    "label" : "Does the owner manage all systems users including the vendor's?",
-                    "hint" : "",
-                    "options" : [ 
-                        {
-                            "label" : "Yes",
-                            "score" : 8,
-                            "recommendation" : "Procedures reported appear to comply with current best practices.",
-                            "isKeyRecommendation" : false
-                        }, 
-                        {
-                            "label" : "No",
-                            "score" : 1,
-                            "recommendation" : "As soon as feasible the owner should assume responsibility for managing all users with access to the control system.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "Unknown",
-                            "score" : 0,
-                            "recommendation" : "Develop a policy that makes the owner responsible for managing access for all users to the control system.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "NA",
-                            "score" : "",
-                            "recommendation" : "Item not applicable at this time.",
-                            "isKeyRecommendation" : false
-                        }
-                    ],
-                    "instance" : 1,
-                    "levels" : [ 
-                        "c1872bfe-50c0-40c8-ad38-afdd7960c9cd", 
-                        "023ab54d-4342-47d6-ad5c-de5ed24a9f0c"
-                    ],
-                    "value" : "",
-                    "requiresAdditionalContext" : false,
-                    "additionalContext" : "",
-                    "instanceIdentifier" : false
-                }, 
-                {
-                    "id" : "daa9a47b-ae38-460b-8509-445822828e00",
-                    "name" : "Scoring",
-                    "type" : "scoring",
-                    "label" : "Are you made aware when a patch / upgrade is made available?",
-                    "hint" : "",
-                    "options" : [ 
-                        {
-                            "label" : "Yes",
-                            "score" : 8,
-                            "recommendation" : "Procedures reported appear to comply with current best practices.",
-                            "isKeyRecommendation" : false
-                        }, 
-                        {
-                            "label" : "No",
-                            "score" : 3,
-                            "recommendation" : "Require vendors to notify the owner whenever patches or upgrades are available.  Also, establish an upgrade and patching process for the installation and testing of software updates.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "Unknown",
-                            "score" : 0,
-                            "recommendation" : "Develop a policy that requires vendors to notify the owner whenever patches or upgrades are made available.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "NA",
-                            "score" : "",
-                            "recommendation" : "Item not applicable at this time.",
-                            "isKeyRecommendation" : false
-                        }
-                    ],
-                    "instance" : 1,
-                    "levels" : [ 
-                        "c1872bfe-50c0-40c8-ad38-afdd7960c9cd", 
-                        "023ab54d-4342-47d6-ad5c-de5ed24a9f0c"
-                    ],
-                    "value" : "",
-                    "requiresAdditionalContext" : false,
-                    "additionalContext" : "",
-                    "instanceIdentifier" : false
-                }, 
-                {
-                    "id" : "61477802-19e7-48e2-82a2-931413ff05cf",
-                    "name" : "Scoring",
-                    "type" : "scoring",
-                    "label" : "Is the application software patched / updated when upgrades are available?",
-                    "hint" : "",
-                    "options" : [ 
-                        {
-                            "label" : "Yes",
-                            "score" : 8,
-                            "recommendation" : "Procedures reported appear to comply with current best practices.",
-                            "isKeyRecommendation" : false
-                        }, 
-                        {
-                            "label" : "No",
-                            "score" : 3,
-                            "recommendation" : "Establish a patching and upgrade process to minimize operational risk.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "Unknown",
-                            "score" : 0,
-                            "recommendation" : "Develop a policy that ensures that patches and updates are made to the application software in conjunction with the vendor's recommendations.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "NA",
-                            "score" : "",
-                            "recommendation" : "Item not applicable at this time.",
-                            "isKeyRecommendation" : false
-                        }
-                    ],
-                    "instance" : 1,
-                    "levels" : [ 
-                        "c1872bfe-50c0-40c8-ad38-afdd7960c9cd", 
-                        "023ab54d-4342-47d6-ad5c-de5ed24a9f0c"
-                    ],
-                    "value" : "",
-                    "requiresAdditionalContext" : false,
-                    "additionalContext" : "",
-                    "instanceIdentifier" : false
-                }, 
-                {
-                    "id" : "8b4e9027-8743-42b9-96ae-9af58a7e9039",
-                    "name" : "Scoring",
-                    "type" : "scoring",
-                    "label" : "Are application patches / updates tested prior to installation?",
-                    "hint" : "",
-                    "options" : [ 
-                        {
-                            "label" : "Yes",
-                            "score" : 8,
-                            "recommendation" : "Procedures reported appear to comply with current best practices.",
-                            "isKeyRecommendation" : false
-                        }, 
-                        {
-                            "label" : "No",
-                            "score" : 1,
-                            "recommendation" : "Test patches and updates on non-production devices prior to deployment on the running control system.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "Unknown",
-                            "score" : 0,
-                            "recommendation" : "Develop a policy for testing patches and updates on non-production devices prior to deployment on the live system.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "NA",
-                            "score" : "",
-                            "recommendation" : "Item not applicable at this time.",
-                            "isKeyRecommendation" : false
-                        }
-                    ],
-                    "instance" : 1,
-                    "levels" : [ 
-                        "6c521f7b-ffc0-4af6-9a94-59cc2a360eca", 
-                        "023ab54d-4342-47d6-ad5c-de5ed24a9f0c"
-                    ],
-                    "value" : "",
-                    "requiresAdditionalContext" : false,
-                    "additionalContext" : "",
-                    "instanceIdentifier" : false
-                }, 
-                {
-                    "id" : "d87c9d78-14da-4f2e-83d8-62b67f5857d4",
-                    "name" : "Scoring",
-                    "type" : "scoring",
-                    "label" : "Is the operating system patched / updated when patches / updates are available?",
-                    "hint" : "",
-                    "options" : [ 
-                        {
-                            "label" : "Yes",
-                            "score" : 8,
-                            "recommendation" : "Procedures reported appear to comply with current best practices.",
-                            "isKeyRecommendation" : false
-                        }, 
-                        {
-                            "label" : "No",
-                            "score" : 3,
-                            "recommendation" : "Establish a patching and upgrade process to minimize operational risk.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "Unknown",
-                            "score" : 0,
-                            "recommendation" : "Develop a policy that ensures that patches and updates are made to the operating systems software in conjunction with the vendor's recommendations.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "NA",
-                            "score" : "",
-                            "recommendation" : "Item not applicable at this time.",
-                            "isKeyRecommendation" : false
-                        }
-                    ],
-                    "instance" : 1,
-                    "levels" : [ 
-                        "c1872bfe-50c0-40c8-ad38-afdd7960c9cd", 
-                        "023ab54d-4342-47d6-ad5c-de5ed24a9f0c"
-                    ],
-                    "value" : "",
-                    "requiresAdditionalContext" : false,
-                    "additionalContext" : "",
-                    "instanceIdentifier" : false
-                }, 
-                {
-                    "id" : "5c0d87da-9312-4f5f-915d-9ad760179093",
-                    "name" : "Scoring",
-                    "type" : "scoring",
-                    "label" : "Are operating system patches / updates tested prior to installation?",
-                    "hint" : "",
-                    "options" : [ 
-                        {
-                            "label" : "Yes",
-                            "score" : 8,
-                            "recommendation" : "Procedures reported appear to comply with current best practices.",
-                            "isKeyRecommendation" : false
-                        }, 
-                        {
-                            "label" : "No",
-                            "score" : 1,
-                            "recommendation" : "Test patches and updates on non-production devices prior to deployment on the running control system.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "Unknown",
-                            "score" : 0,
-                            "recommendation" : "Develop a policy for testing patches and updates on non-production devices prior to deployment on the live system.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "NA",
-                            "score" : "",
-                            "recommendation" : "Item not applicable at this time.",
-                            "isKeyRecommendation" : false
-                        }
-                    ],
-                    "instance" : 1,
-                    "levels" : [ 
-                        "6c521f7b-ffc0-4af6-9a94-59cc2a360eca", 
-                        "023ab54d-4342-47d6-ad5c-de5ed24a9f0c"
-                    ],
-                    "value" : "",
-                    "requiresAdditionalContext" : false,
-                    "additionalContext" : "",
-                    "instanceIdentifier" : false
-                }, 
-                {
-                    "id" : "be638107-1824-421b-907a-91a9850aff92",
-                    "name" : "Scoring",
-                    "type" : "scoring",
-                    "label" : "Are there diagrams / drawings for all connected devices?",
-                    "hint" : "",
-                    "options" : [ 
-                        {
-                            "label" : "Yes",
-                            "score" : 8,
-                            "recommendation" : "Procedures reported appear to comply with current best practices.",
-                            "isKeyRecommendation" : false
-                        }, 
-                        {
-                            "label" : "No",
-                            "score" : 3,
-                            "recommendation" : "Contact the vendor to obtain up-to-date diagrams and drawings of the control system inclusive of all devices.  Establish periodic audits to ensure that the information remains current.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "Unknown",
-                            "score" : 0,
-                            "recommendation" : "Develop a policy that requires the vendor to provide up-to-date diagrams and drawings of the control system and institute periodic audits to ensure compliance.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "NA",
-                            "score" : "",
-                            "recommendation" : "Item not applicable at this time.",
-                            "isKeyRecommendation" : false
-                        }
-                    ],
-                    "instance" : 1,
-                    "levels" : [ 
-                        "440804b6-822d-48ad-b12d-54461f1e82ec", 
-                        "3c7462f2-bfcc-4234-b251-087647b37e7b"
-                    ],
-                    "value" : "",
-                    "requiresAdditionalContext" : false,
-                    "additionalContext" : "",
-                    "instanceIdentifier" : false
-                }, 
-                {
-                    "id" : "ae8e00bc-0272-4539-b050-fe5722fb5e94",
-                    "name" : "Scoring",
-                    "type" : "scoring",
-                    "label" : "Is the control system backed up?",
-                    "hint" : "",
-                    "options" : [ 
-                        {
-                            "label" : "Yes",
-                            "score" : 8,
-                            "recommendation" : "Procedures reported appear to comply with current best practices.",
-                            "isKeyRecommendation" : false
-                        }, 
-                        {
-                            "label" : "No",
-                            "score" : 1,
-                            "recommendation" : "Back up the control system inclusive of the application, programs and all system configurations.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "Unknown",
-                            "score" : 0,
-                            "recommendation" : "Develop a backup policy for all control systems that ensures that a current, uncorrupted backup is available at all times that includes the application, programs and system configurations.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "NA",
-                            "score" : "",
-                            "recommendation" : "Item not applicable at this time.",
-                            "isKeyRecommendation" : false
-                        }
-                    ],
-                    "instance" : 1,
-                    "levels" : [ 
-                        "440804b6-822d-48ad-b12d-54461f1e82ec", 
-                        "3c7462f2-bfcc-4234-b251-087647b37e7b"
-                    ],
-                    "value" : "",
-                    "requiresAdditionalContext" : false,
-                    "additionalContext" : "",
-                    "instanceIdentifier" : false
-                }, 
-                {
-                    "id" : "d140c05d-261a-4b1c-b8a5-a150da90ae21",
-                    "name" : "Scoring",
-                    "type" : "scoring",
-                    "label" : "Are backups archived to a location other than the system server?",
-                    "hint" : "",
-                    "options" : [ 
-                        {
-                            "label" : "Yes",
-                            "score" : 8,
-                            "recommendation" : "Procedures reported appear to comply with current best practices.",
-                            "isKeyRecommendation" : false
-                        }, 
-                        {
-                            "label" : "No",
-                            "score" : 2,
-                            "recommendation" : "Backups should be archived to a location other than the system server.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "Unknown",
-                            "score" : 0,
-                            "recommendation" : "Develop a policy that requires backups to be archived to a location other than the system server.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "NA",
-                            "score" : "",
-                            "recommendation" : "Item not applicable at this time.",
-                            "isKeyRecommendation" : false
-                        }
-                    ],
-                    "instance" : 1,
-                    "levels" : [ 
-                        "440804b6-822d-48ad-b12d-54461f1e82ec", 
-                        "3c7462f2-bfcc-4234-b251-087647b37e7b"
-                    ],
-                    "value" : "",
-                    "requiresAdditionalContext" : false,
-                    "additionalContext" : "",
-                    "instanceIdentifier" : false
-                }, 
-                {
-                    "id" : "432e750c-cb0e-4bc4-810a-fc015a2393c6",
-                    "name" : "Scoring",
-                    "type" : "scoring",
-                    "label" : "Are audit logs on devices set to archive to a central repository other than the server itself?",
-                    "hint" : "",
-                    "options" : [ 
-                        {
-                            "label" : "Yes",
-                            "score" : 8,
-                            "recommendation" : "Procedures reported appear to comply with current best practices.",
-                            "isKeyRecommendation" : false
-                        }, 
-                        {
-                            "label" : "No",
-                            "score" : 3,
-                            "recommendation" : "Archive logs to a central repository.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "Unknown",
-                            "score" : 0,
-                            "recommendation" : "Develop a policy that requires that logs are archived to a central repository.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "NA",
-                            "score" : "",
-                            "recommendation" : "Item not applicable at this time.",
-                            "isKeyRecommendation" : false
-                        }
-                    ],
-                    "instance" : 1,
-                    "levels" : [ 
-                        "893e4a62-5aed-4a2d-80b6-a9c55030c06f", 
-                        "f64f9565-8db4-4264-b4af-4de098de7b18"
-                    ],
-                    "value" : "",
-                    "requiresAdditionalContext" : false,
-                    "additionalContext" : "",
-                    "instanceIdentifier" : false
-                }, 
-                {
-                    "id" : "64b48063-0e5c-431a-8e2d-207c9c0b9ff0",
-                    "name" : "Scoring",
-                    "type" : "scoring",
-                    "label" : "Do device audit logs get backed up to a secure location?",
-                    "hint" : "",
-                    "options" : [ 
-                        {
-                            "label" : "Yes",
-                            "score" : 8,
-                            "recommendation" : "Procedures reported appear to comply with current best practices.",
-                            "isKeyRecommendation" : false
-                        }, 
-                        {
-                            "label" : "No",
-                            "score" : 5,
-                            "recommendation" : "Archived logs should always be located in a secure location.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "Unknown",
-                            "score" : 0,
-                            "recommendation" : "Develop a policy that requires archived logs to be located in a secure location.",
-                            "isKeyRecommendation" : true
-                        }, 
-                        {
-                            "label" : "NA",
-                            "score" : "",
-                            "recommendation" : "Item not applicable at this time.",
-                            "isKeyRecommendation" : false
-                        }
-                    ],
-                    "instance" : 1,
-                    "levels" : [ 
-                        "893e4a62-5aed-4a2d-80b6-a9c55030c06f", 
-                        "f64f9565-8db4-4264-b4af-4de098de7b18"
-                    ],
-                    "value" : "",
-                    "requiresAdditionalContext" : true,
-                    "additionalContext" : "",
-                    "instanceIdentifier" : false
+                    "id": "cda256da-af66-45b5-b007-4b16054a0138",
+                    "name": "Date",
+                    "type": "date",
+                    "label": "When were you last physically on site?",
+                    "hint": "",
+                    "options": [],
+                    "instance": 1,
+                    "levels": [],
+                    "value": 0,
+                    "requiresAdditionalContext": false,
+                    "additionalContext": "",
+                    "instanceIdentifier": false
                 }
             ],
-            "multiInstance" : true,
-            "multiInstanceLabel" : "Control System"
+            "multiInstance": false,
+            "multiInstanceLabel": ""
+        },
+        {
+            "id": "94c9bb6d-32c4-4c55-b2b8-88e9dda8617a",
+            "name": "Observations",
+            "title": "Observations",
+            "description": "",
+            "questions": [
+                {
+                    "id": "42ff0ad1-5345-4d48-a6a1-aa7290fc0e9d",
+                    "name": "Short Text",
+                    "type": "shorttext",
+                    "label": "Describe the lobby and building access.",
+                    "hint": "",
+                    "options": [],
+                    "instance": 1,
+                    "levels": [],
+                    "value": "",
+                    "requiresAdditionalContext": false,
+                    "additionalContext": "",
+                    "instanceIdentifier": false
+                },
+                {
+                    "id": "f20c1b4b-5fda-4050-a366-cf5b955244a6",
+                    "name": "Scoring",
+                    "type": "scoring",
+                    "label": "Elevator access restrictions in place?",
+                    "hint": "Did you verify that standard issue cards cannot access restricted floors?",
+                    "options": [
+                        {
+                            "label": "Yes - and followed",
+                            "score": 6.0,
+                            "recommendation": "",
+                            "isKeyRecommendation": false
+                        },
+                        {
+                            "label": "Yes - not followed though",
+                            "score": 4.0,
+                            "recommendation": "Implementation needs to be enforced.",
+                            "isKeyRecommendation": true
+                        },
+                        {
+                            "label": "No",
+                            "score": 1.0,
+                            "recommendation": "Policy needs to be created and implemented ASAP!",
+                            "isKeyRecommendation": true
+                        }
+                    ],
+                    "instance": 1,
+                    "levels": [
+                        "190fb63c-4cad-4d98-9b68-9215b59a4d88",
+                        "7fcb18f7-57d7-4506-8be2-d19340e3ea7d"
+                    ],
+                    "value": "Yes - and followed",
+                    "requiresAdditionalContext": true,
+                    "additionalContext": "",
+                    "instanceIdentifier": false
+                }
+            ],
+            "multiInstance": false,
+            "multiInstanceLabel": ""
+        },
+        {
+            "id": "b547bc28-9e45-41ba-ae73-38517a8e0f30",
+            "name": "Systems",
+            "title": "Systems",
+            "description": "",
+            "questions": [
+                {
+                    "id": "841823f1-4cc7-41f1-838c-89323ff7a02f",
+                    "name": "Radio",
+                    "type": "enumsingle",
+                    "label": "What type of system is this?",
+                    "hint": "Did you look for a sticker on the bottom or back?",
+                    "options": [
+                        {
+                            "label": "Computer",
+                            "score": "",
+                            "recommendation": "",
+                            "isKeyRecommendation": false
+                        },
+                        {
+                            "label": "Router",
+                            "score": "",
+                            "recommendation": "",
+                            "isKeyRecommendation": false
+                        },
+                        {
+                            "label": "Switch",
+                            "score": "",
+                            "recommendation": "",
+                            "isKeyRecommendation": false
+                        },
+                        {
+                            "label": "NAS",
+                            "score": "",
+                            "recommendation": "",
+                            "isKeyRecommendation": false
+                        }
+                    ],
+                    "instance": 1,
+                    "levels": [],
+                    "value": "Router",
+                    "requiresAdditionalContext": false,
+                    "additionalContext": "",
+                    "instanceIdentifier": true
+                },
+                {
+                    "id": "32cf75b6-2464-4811-acb7-7d1ce803ad12",
+                    "name": "Short Text",
+                    "type": "shorttext",
+                    "label": "Name",
+                    "hint": "Common name that is used to identify system in the organization",
+                    "options": [],
+                    "instance": 1,
+                    "levels": [],
+                    "value": "",
+                    "requiresAdditionalContext": false,
+                    "additionalContext": "",
+                    "instanceIdentifier": true
+                },
+                {
+                    "id": "cc4f7a94-e2b1-4326-8740-0db5ad01ef0b",
+                    "name": "Scoring",
+                    "type": "scoring",
+                    "label": "Is it secure?",
+                    "hint": "",
+                    "options": [
+                        {
+                            "label": "Yes - In a locked room",
+                            "score": 8.0,
+                            "recommendation": "Consider reviewing who has access to this room.",
+                            "isKeyRecommendation": false
+                        },
+                        {
+                            "label": "Yes - In a locked cage",
+                            "score": 5.0,
+                            "recommendation": "Confirm that cage prohibits access to plug in USB devices.",
+                            "isKeyRecommendation": false
+                        },
+                        {
+                            "label": "No",
+                            "score": 1.0,
+                            "recommendation": "System should be moved to a locked cage or room.",
+                            "isKeyRecommendation": true
+                        }
+                    ],
+                    "instance": 1,
+                    "levels": [
+                        "e4aa5d9c-6c73-4a28-9667-88435f77446e",
+                        "0bb5b28d-878e-49c4-8970-c6d5f0836550"
+                    ],
+                    "value": "Yes - In a locked room",
+                    "requiresAdditionalContext": true,
+                    "additionalContext": "",
+                    "instanceIdentifier": false
+                }
+            ],
+            "multiInstance": true,
+            "multiInstanceLabel": "Computer System"
         }
     ],
-    "isDeleted" : false
-    
+    "isDeleted": false
 }
